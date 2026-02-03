@@ -1,5 +1,7 @@
 from src.architectures.prompt_only import PromptOnlyArchitecture
 from src.core.models import Constraints
+from dotenv import load_dotenv
+load_dotenv()
 
 
 def main():
